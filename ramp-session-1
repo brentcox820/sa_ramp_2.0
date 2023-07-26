@@ -23,14 +23,13 @@ sudo ./elastic-agent install --url=https://f2f020c66d8a4fd4aa043885f69316e3.flee
       - This will allow you to repurose the installed elastic agent and start collecting metrics on your Elastic Deployment so we can start creating some oy11 “observability data”
       - Look will be below
 
-```other
+```
 sudo elastic-agent enroll --url=https://f2f020c66d8a4fd4aa043885f69316e3.fleet.us-west-2.aws.found.io:443 --enrollment-token=NWJwZmtJa0JqdmZ0RmtjT0lSQno6cEQtUlVpWXNURWlWS0tPT0RKUVZvQQ==
 ```
 
 - Next open a new terminal window on your mac with Cmd + spacebare and type Terminal
-   - Once in terminal you will navigate to the /Libary/Elastic folder for us to run the above command.
-
-```other
+   - Once in terminal you will navigate to the /Libary/Elastic folder for us to run the below command.
+```
 cd /Library/Elastic
 ```
 
